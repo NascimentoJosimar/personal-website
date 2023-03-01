@@ -2,7 +2,7 @@
 
 ## Sobre o Projeto
 
-Projeto elaborado com o intuito de fortalecer o conhecimento e os estudos da linguagem de marcação HTML5 e da linguagem de estilização CSS3. O objetivo foi elaborar um pequeno site pessoal e hospedá-lo em nuvem.
+Projeto elaborado com o intuito de fortalecer o conhecimento e os estudos da linguagem de marcação HTML5 e da linguagem de estilização CSS3. O objetivo foi elaborar um pequeno site pessoal e hospedá-lo em nuvem. Obs: Ainda não concluído e não responsivo.
 
 Url de hospedagem: https://josimar-nascimento.netlify.app/home.html
 
