@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+.parent {
+    display: flex;
+}
+
+.sidebar {
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    background-color: #ebbf58;
+}
+
+.sidebar-pos {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.img-sidebar {
+    text-align: center;
+}
+
+.img-sidebar img {
+    width: 50%;
+    border: 6px solid #f8d88d;
+    border-radius: 50%;
+}
+
+.menu {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 26px;
+}
+
+.menu a {
+    color: #fff;
+    opacity: 0.4;
+    font-size: 24px;
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.menu a:hover {
+    opacity: 1;
+    letter-spacing: 2px;
+}
+
+.menu a.selected {
+    opacity: 1;
+}
+
+.content {
+    position: absolute;
+    left: 20%;
+    width: 80%;
+    height: 100%;
+    overflow-y: auto;
+    padding: 0 3%;
+}
+
+section.descricao {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+section.descricao h2 {
+    color: #343a40;
+    font-size: 46px;
+}
+
+section.descricao h2 > span,
+section.descricao h3 > span  {
+    color: #ebbf58;
+}
+
+section.descricao h3 {
+    margin: 15px 0;
+    color: #6c757d;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+section.descricao p {
+    color: #6c757d;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.icons-social {
+    margin-top: 20px;
+}
+
+.icons-social a {
+    text-decoration: none;
+    color: #fff;
+    background-color: grey;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.icons-social i {
+    line-height: 40px;
+}
+
+.icons-social-contact {
+    margin-top: 20px;
+}
+
+.icons-social-contact a {
+    text-decoration: none;
+    color: #fff;
+    background-color: grey;
+    width: 50%;
+    height: 40px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.icons-social-contact i {
+    line-height: 40px;    
+}
+
+.icons-social-contact li {
+    list-style: none;
+}
+
+footer{
+    background: #ebbf58;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top:15px;
+}
