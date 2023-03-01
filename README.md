@@ -4,6 +4,8 @@
 
 Projeto elaborado com o intuito de fortalecer o conhecimento e os estudos da linguagem de marcação HTML5 e da linguagem de estilização CSS3. O objetivo foi elaborar um pequeno site pessoal e hospedá-lo em nuvem.
 
+Url de hospedagem: https://josimar-nascimento.netlify.app/home.html
+
 ## Linguagens utilizadas
 
 <img src ="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
